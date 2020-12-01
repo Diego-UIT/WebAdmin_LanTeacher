@@ -11225,3 +11225,114 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+/* --- New Booking Form --- */
+.control-label {
+  margin-top: 1px;
+  font-weight: 400;
+}
+.dropzone.dz-clickable {
+  cursor: pointer;
+}
+.dropzone {
+  min-height: 150px;
+  border: 2px dashed rgba(0, 0, 0, 0.3);
+  background: white;
+  padding: 20px 20px;
+}
+.dropzone.dz-clickable .dz-message, .dropzone.dz-clickable .dz-message * {
+  cursor: pointer;
+}
+.dropzone .dz-message {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 20px;
+}
+.btn-pink {
+  background-color: #ff4081 !important;
+  border: 1px solid #ff4081 !important;
+  color: #fff !important;
+  margin-right: 15px;
+}
+.btn-default{
+  background-color: #888888 !important;
+  border: #888888 !important;
+  color: #fff !important;
+}
+.mdl-button {
+  border: none;
+  border-radius: 2px;
+  color: #000;
+  position: relative;
+  height: 36px;
+  min-width: 64px;
+  padding: 0 16px;
+  display: inline-block;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 36px;
+  vertical-align: middle;
+  margin-top: 25px;
+  transition: all .2s linear;
+}
+.mdl-button:hover{
+  transform: translateY(-2px);
+}
+.mdl-button:active{
+  transform: translateY(-1px);
+}
+.mdl-button--raised {
+  background: rgba(158, 158, 158, .2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+/* --- View Booking Form --- */
+.btn-edit {
+  font-size: 12px;
+  background-color: #888;
+  border-radius: 50% !important;
+  padding: 7px !important;
+  color: #fff;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  line-height: 10px;
+  margin-right: 5px;
+}
+.btn-edit:hover{
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4);
+}
+.btn-edit a{
+  color: #fff;
+}
+.btn-delete {
+  font-size: 12px;
+  background-color: #f96332;
+  border-radius: 50% !important;
+  padding: 8px !important;
+  color: #fff !important;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  line-height: 10px;
+}
+.btn-delete:hover{
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4);
+}
+.label{
+  color: #fff;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .1), 0 1px 2px rgba(0, 0, 0, .18);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 7px 7px;
+}
+.label-warning{
+  background: linear-gradient(45deg,#FFB64D,#ffcb80) !important;
+}
+.label-success{
+  background: linear-gradient(45deg,#2ed8b6,#59e0c5) !important;
+}
