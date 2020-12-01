@@ -11226,6 +11226,9 @@ body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
 /* --- New Booking Form --- */
+.table{
+  text-align: center;
+}
 .control-label {
   margin-top: 1px;
   font-weight: 400;
